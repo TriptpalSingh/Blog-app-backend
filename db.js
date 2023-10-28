@@ -3,7 +3,7 @@ const schema = mongoose.Schema;
 
 
 function connectDb(){
-    mongoose.connect(process.env.MONGO_URI).then(()=>{
+    mongoose.connect("mongodb+srv://tript:tript@optimus.jprmvx3.mongodb.net/test?retryWrites=true&w=majority").then(()=>{
         console.log("connected to db");
     }).catch((e)=>{
         console.log("an error occured");
