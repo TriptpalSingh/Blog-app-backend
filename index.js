@@ -22,6 +22,10 @@ const info = {
     username: ""
 }
 
+app.get('/', (req, res)=>{
+    res.send("This is the api for the assignment.")
+})
+
 app.get('/api/auth/checkLoggedIn', (req,res)=>{
     res.send(loggedIn);
 })
