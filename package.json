@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "vercel-build":"echo hello"
+    "vercel-build": "echo hello"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,7 @@
     "dcryptjs": "^1.0.5",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
+    "mongodb": "^6.2.0",
     "mongoose": "^7.2.2"
   }
 }
